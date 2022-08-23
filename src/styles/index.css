@@ -2,4 +2,16 @@
 .card-1 {
     width: 18rem;
     margin-top: 50px;
+    
 }
+.row {
+    justify-content: center;
+}
+.text-logo {
+   color: whitesmoke;
+   margin-left:20% ;
+}
+.text-li{
+    margin-right: 28%;
+}
+
