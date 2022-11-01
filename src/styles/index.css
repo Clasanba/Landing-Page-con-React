@@ -1,5 +1,41 @@
+.card {
+  padding: 0px;
+  width: 18rem;
+}
 
-.card-1 {
-    width: 18rem;
-    margin-top: 50px;
+.card-title {
+  font-size: 1.7rem;
+}
+
+.card-footer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  margin: auto;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.jumbotron-container {
+  width: 66%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 5rem;
+  color: white;
+  background-color: rgb(51, 56, 63);
+  text-align: center;
+}
+
+.footer-text {
+  padding-top: 2.5rem;
 }

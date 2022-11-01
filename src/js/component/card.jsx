@@ -1,21 +1,33 @@
 import React from "react";
+import PropTypes from 'prop-types'
 
-const Card = (props) => {
-    return ( <>
-        <div class="card-group card-1 container text-center">
-            <div class="card">
-                <img src="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png" class="card-img-top" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">{props.text}</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-            </div>
+const Card = (prop) => {
+  
+  const text = prop.text;
+
+  return (<>
+    <div className="card text-center">
+      <div className="card">
+        <img src="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png" className="card-img-top" />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            {text}
+          </p>
         </div>
-    </>
-    );
+        <div className="card-footer">
+          <a href="#" className="btn btn-primary">
+            Find Out More!
+          </a>
+        </div>
+      </div>
+    </div>
+  </>
+  );
+};
+
+Card.propTypes = {
+  text: PropTypes.string
 };
 
 export default Card;
