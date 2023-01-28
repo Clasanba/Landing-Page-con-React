@@ -2,7 +2,10 @@
   padding: 0px;
   width: 18rem;
 }
-
+.navBar{
+  margin-left: 8.5%;
+  margin-right: 8%;
+}
 .card-title {
   font-size: 1.7rem;
 }
@@ -17,14 +20,15 @@
 .card-container {
   margin: auto;
   gap: 2rem;
-  width: 100%;
+  width: 90%;
   justify-content: center;
   margin-top: 1rem;
 }
 
 .jumbotron-container {
-  width: 66%;
-  margin: auto;
+  width: 83%;
+  margin-left: 8.5%;
+  margin-right: 9%;
   margin-top: 1rem;
 }
 
