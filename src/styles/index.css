@@ -26,17 +26,28 @@
 }
 
 .jumbotron-container {
-  width: 83%;
-  margin-left: 8.5%;
-  margin-right: 9%;
+  width: 80%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-top: 1rem;
+  padding: 5%;
+  display: flex;
+  
+}
+.jumbotron {
+  width: 100%;
+  margin-left: 35%;
+  margin-right: 10%;
+  margin-top: 20rem;
+  padding: 5%;
+  
 }
 
 .footer {
   height: 100px;
   margin-top: 5rem;
   color: white;
-  background-color: rgb(51, 56, 63);
+  background-color: rgb(24, 27, 31);
   text-align: center;
 }
 

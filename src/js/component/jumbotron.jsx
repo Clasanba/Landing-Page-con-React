@@ -2,20 +2,11 @@ import React from "react";
 
 const Jumbotron = () => {
   return (
-      <div className="jumbotron-container">
-        <div className="jumbotron bg-light m-2 p-4">
-          <h1 className="display-4">A Warm Welcome!</h1>
-          <p className="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            nihil, illum illo voluptate laborum explicabo consequatur. Illum,
-            molestias voluptatum quia fuga sequi dignissimos? Sequi possimus
-            consectetur perferendis cupiditate quam natus?
-          </p>
-          <p className="lead mx-2">
-            <a className="btn btn-primary btn-lg" href="#" role="button">
-              Call to action!
-            </a>
-          </p>
+      <div class="jumbotron-container card text-bg-dark">
+        <img src="https://img.freepik.com/foto-gratis/edificios-modernos_1127-2851.jpg" class="card-img" alt="..."/>
+        <div class="jumbotron card-img-overlay">
+          <h1 class="card-title">One Page Wonder</h1>
+          <h2 class="card-text">Will Knock Your Socks Off</h2>
         </div>
       </div>
   );
